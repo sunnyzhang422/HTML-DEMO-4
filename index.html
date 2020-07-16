@@ -2,27 +2,46 @@
 <html lang="zh-CH">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content=" width=device-width, 
+              initial-scale=1.0, 
+              minimum-scale=1.0, 
+              maximum-scale=1.0, 
+              user-scalable=no"
+    />
     <title>邓伦</title>
     <style>
       image {
         max-width: 100%;
       }
-      tr,th
-      {
-          background-color:coral;
-          <!-----border: 1px,solid red ;------->
-
+      tr,
+      th {
+        background-color: coral;
       }
     </style>
   </head>
   <body>
-    <h1>邓伦</h1>
+    <nav>
+      <!--导航-->
+      <ol>
+        <li><a href="#lun">个人简介</a></li>
+        <li><a href="#event1">演绎阅历</a></li>
+        <li><a href="#event2">慈善公益</a></li>
+        <li><a href="#event3">电视剧作品</a></li>
+        <li><a href="#event4">生活照片</a></li>
+        <li><a href="#event5">生平</a></li>
+      </ol>
+    </nav>
+
+    <h1 id="lun">
+      邓伦
+    </h1>
     <p>
       邓伦（1992年10月21日出生）
       中国影视男演员，出生于河北省石家庄市，毕业于上海戏剧学院2011级表演系。
     </p>
-    <h2>演绎阅历</h2>
+    <h2 id="event1">演绎阅历</h2>
 
     <ul>
       <li>
@@ -36,7 +55,7 @@
         2018年，随着主演的《一千零一夜》及《香蜜沉沉烬如霜》两部作品的高收视，迎来演艺事业高峰。
       </li>
     </ul>
-    <h2>慈善公益</h2>
+    <h2 id="event2">慈善公益</h2>
     <ui>
       <li>
         2016年，邓伦参加一直播发起的“爱心一碗饭”公益活动，呼吁粉丝为贫困地区学生改善午餐营养。
@@ -68,7 +87,7 @@
         2018年10月14日，邓伦透过微博呼吁大家支持10月17日的“国家扶贫日”，一同关注“脱贫攻坚战”星光行动启动仪式，聚你我之力，为打赢“脱贫攻坚战”加油。
       </li>
     </ui>
-    <h2>电视剧作品</h2>
+    <h2 id="event3">电视剧作品</h2>
     <table>
       <thead>
         <tr>
@@ -120,19 +139,26 @@
         </tr>
       </tbody>
     </table>
-    <h2>生活照片</h2>
-    <ul>
-      <ol>
+    <h2 id="event4">生活照片</h2>
+
+    <div>
+      <a href="imags/1.jpg" target="_black">
         <img width="600" src="imags/1.jpg" alt="图一" />
-      </ol>
-      <ol>
+      </a>
+    </div>
+
+    <div>
+      <a href="imags/2.jpg" target="_black">
         <img width="600" src="imags/2.jpg" alt="图二" />
-      </ol>
-      <ol>
+      </a>
+    </div>
+    <div>
+      <a href="imags/3.jpg" target="_black">
         <img width="600" src="imags/3.jpg" alt="图三" />
-      </ol>
-    </ul>
-    <h2>生平</h2>
+      </a>
+    </div>
+
+    <h2 id="event5">生平</h2>
     <p>
       1992年10月21日，邓伦出生于河北省石家庄市。
     </p>
@@ -142,5 +168,6 @@
     <p>
       大学就读于上海戏剧学院2011级表演系本科1班，和郭晓婷、王煜、王莎莎等90后演员是大学同班同学。
     </p>
+    <div style="height: 600;"></div>
   </body>
 </html>
